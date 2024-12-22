@@ -606,25 +606,32 @@ footer {
 
 .glow-text {
     color: #fff;
-    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
-                 0 0 20px rgba(255, 255, 255, 0.5),
-                 0 0 30px rgba(121, 40, 202, 0.7),
-                 0 0 40px rgba(255, 0, 128, 0.4);
-    animation: glow 2s ease-in-out infinite alternate;
+    font-weight: bold;
+    text-shadow: 0 0 5px #fff,
+                 0 0 10px #fff,
+                 0 0 15px #9d4edd,
+                 0 0 20px #9d4edd,
+                 0 0 25px #9d4edd,
+                 0 0 30px #9d4edd;
+    animation: neonGlow 1.5s ease-in-out infinite alternate;
 }
 
-@keyframes glow {
+@keyframes neonGlow {
     from {
-        text-shadow: 0 0 10px rgba(255, 255, 255, 0.8),
-                     0 0 20px rgba(255, 255, 255, 0.5),
-                     0 0 30px rgba(121, 40, 202, 0.7),
-                     0 0 40px rgba(255, 0, 128, 0.4);
+        text-shadow: 0 0 5px #fff,
+                     0 0 10px #fff,
+                     0 0 15px #9d4edd,
+                     0 0 20px #9d4edd,
+                     0 0 25px #9d4edd,
+                     0 0 30px #9d4edd;
     }
     to {
-        text-shadow: 0 0 15px rgba(255, 255, 255, 0.9),
-                     0 0 25px rgba(255, 255, 255, 0.6),
-                     0 0 35px rgba(121, 40, 202, 0.8),
-                     0 0 45px rgba(255, 0, 128, 0.5);
+        text-shadow: 0 0 10px #fff,
+                     0 0 20px #fff,
+                     0 0 30px #9d4edd,
+                     0 0 40px #9d4edd,
+                     0 0 50px #9d4edd,
+                     0 0 60px #9d4edd;
     }
 }
 
